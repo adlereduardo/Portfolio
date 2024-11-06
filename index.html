@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&family=Secular+One&display=swap');
+    </style>
+    <title>AEdev</title>
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header>
+
+        <div class="logo">
+            <a href="">
+                <h1>AEdev</h1>
+            </a>
+        </div>
+
+        <div class="itens-header">
+            <ul class="ul-itens">
+                <li><a href="#inicio">Início</a></li>
+
+                <li><a href="#sobre-mim">Sobre</a></li>
+
+                <li><a href="#projetos">Projetos</a></li>
+
+                <li><a href="#certificados">Certificados</a></li>
+
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><i class="fa-solid fa-bars"></i></button>
+            <span class="close-btn" style="display: none;"><i class="fa-solid fa-x"></i></span>
+        </div>
+
+        
+    </header>
+
+    <div class="mobile-itens-header">
+        
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+
+            <li><a href="#sobre-mim">Sobre</a></li>
+
+            <li><a href="#projetos">Projetos</a></li>
+
+            <li><a href="#certificados">Certificados</a></li>
+
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </div>
+
+    <!--Início-->
+
+    <div data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+    class="inicio container-inicio" id="particles-js">
+        <section class="container-start">
+            <h2><span class="span-box">Olá,</span> Me chamo</h2>
+            <h2><span class="span-strong">Adler Eduardo</span></h2>
+            <h2>Front-end <span class="span-color">Developer</span></h2>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+            <div class="icons">
+                <a href="https://github.com/adlereduardo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/adler-eduardo-226a83200/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./img/'Currículo Adler Eduardo Front End.pdf'" download="Currículo Adler Eduardo Front End.pdf"><button type="submit">Meu Currículo</button></a>
+        </section>
+    </div>
+
+    <div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" 
+    class="container-sobre-mim" id="sobre-mim">
+
+        <div class="about">
+            <h2>Sobre mim</h2>
+            <p>Oi, sou <strong>Adler</strong>, tenho 22 anos e sou um <strong>programador</strong> autodidata. Minha
+                paixão por tecnologia começou na infância e, aos 20 anos, decidi começar a programar. <br><br> Desde
+                então, venho me dedicando ao desenvolvimento web e acumulando alguns <a href="#projetos"><strong
+                        style="color: #E6193B" ;>projetos</strong></a> legais no meu
+                portfólio. <br><br> Atualmente, estudo Análise e Desenvolvimento de Sistemas na Estácio de Sá e
+                estou envolvido em projetos da faculdade. <br><br> Me sinto entusiasmado em participar de novos projetos
+                e estou sempre em busca de me <strong>destacar</strong> no mercado de tecnologia e
+                <strong>contribuir</strong> para projetos
+                que realmente fazem a diferença.
+
+            </p>
+
+        </div>
+        <div class="about-img"><img src="./img/WhatsApp Image 2024-09-26 at 11.20.00.jpeg" alt=""></div>
+
+    </div>
+
+    <!--Projetos-->
+
+    <div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"  class="container-projetos" id="projetos">
+        <div class="section-title">
+            Principais Projetos
+        </div>
+
+        <div class="projetos">
+            <div class="projeto">
+                <a href="https://adlereduardo.github.io/vintage-fc/" target="_blank">
+                    <p>Ecommerce de Camisas Retrô</p>
+                </a>
+                <iframe src="vintagefc.html" frameborder="0"></iframe>
+            </div>
+            <div class="projeto">
+                <a href="" target="_blank">
+                    <p>Landing Page JKPOOL</p>
+                </a>
+                <iframe src="jkpool.html" frameborder="0"></iframe>
+            </div>
+            <div class="projeto">
+                <a href="" target="_blank">
+                    <p>Ecommerce de Carros</p>
+                </a>
+                <iframe src="aemultimarcas.html" frameborder=""></iframe>
+            </div>
+        </div>
+
+
+
+    </div>
+
+     <!--Certificados-->
+
+     <div data-aos="fade-up"
+     data-aos-offset="200"
+     data-aos-delay="50"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-out"
+     data-aos-mirror="true"
+     data-aos-once="false"
+     data-aos-anchor-placement="top-center"
+     class="container-certificados" id="certificados">
+ 
+         <div id="section-title-projetos">
+             Meus Certificados
+         </div>
+ 
+         <div class="certificados">
+             <div class="certificado"><img src="./img/Certificado udemy.jpeg" alt=""></div>
+             <div class="certificado"><img src="./img/Certificado Cubos Academy (1)-1.png" alt=""></div>
+             <div class="certificado"><img src="./img/Certificado udemy.jpeg" alt=""></div>
+             <div class="certificado"><img src="./img/Certificado Cubos Academy (1)-1.png" alt=""></div>
+         </div>
+ 
+     </div>
+
+    <!--Habilidades-->
+
+    <div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+    class="container-habilidades" id="habilidades">
+        <div class="section-title">
+            Minhas habilidades
+        </div>
+        <div class="habilities">
+
+            <div class="hab-itens">
+
+                <div class="habilidade-titulo"> <i class="fa-brands fa-html5"></i>HTML</div>
+                <p>
+                    HTML, ou HyperText Markup Language, é a linguagem que estrutura páginas da web usando "tags" para
+                    organizar
+                    texto, imagens e links. É a base fundamental para a criação de sites.
+                </p>
+            </div>
+            <div class="hab-itens">
+
+                <div class="habilidade-titulo"><i class="fa-brands fa-css3"></i>CSS</div>
+                <p>CSS (Cascading Style Sheets) é a linguagem que estiliza páginas da web, controlando</p>
+            </div>
+            <div class="hab-itens">
+
+                <div class="habilidade-titulo"><i class="fa-brands fa-js"></i>JavaScript</div>
+                <p>
+                    JavaScript é uma linguagem que adiciona interatividade e dinamismo às páginas da web, permitindo
+                    manipular
+                    elementos e responder a eventos do usuário.
+                </p>
+            </div>
+            <div class="hab-itens">
+
+                <div class="habilidade-titulo"><i class="fa-brands fa-bootstrap"></i>Bootstrap</div>
+                <p>
+                    Bootstrap é um framework que ajuda a criar sites responsivos com componentes prontos e estilos CSS,
+                    facilitando o desenvolvimento.
+                </p>
+            </div>
+            <div class="hab-itens">
+
+                <div class="habilidade-titulo"><i class="fa-brands fa-react"></i>React</div>
+                <p>
+                    React é uma biblioteca JavaScript para criar interfaces de usuário com componentes reutilizáveis e
+                    gestão
+                    eficiente de estado.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> <!--Lib particles-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Lib particles-->
+    <script src="https://kit.fontawesome.com/6d52ac3837.js" crossorigin="anonymous"></script> <!--Icons-->
+  <script>
+    AOS.init();
+  </script>
+    <script src="./js/script.js"></script> <!--Script-->
+</body>
+
+</html>

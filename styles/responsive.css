@@ -1,0 +1,119 @@
+@media (hover: none) {
+    .element:hover {
+        background-color: inherit; 
+        color: inherit; 
+        transform: scale(1); 
+    }
+}
+
+/* Responsividade */
+@media screen and (max-width: 730px) {
+
+    :root{
+        --colorwhite: #ffff;
+        --colorred: #E6193B;
+        --colorblack: #000000;
+        --fontsize-small: 12px;
+        --fontsize-middle: 14px;
+        --fontsize-big: 16px;
+        --fontsize-bigger: 20px;
+    
+    }
+
+    .itens-header{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    
+    .container-sobre-mim {
+        justify-content: center;
+        align-items: center;
+
+        img{
+            margin: auto;
+            width: 130px;
+        }
+    }
+
+   .about-img{
+    margin-left: 0;
+    margin-right: 20px;
+   }
+
+    .about{
+        width: 250px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;  
+        flex-direction: column;
+        margin-left: 20px;
+        
+        p{
+            font-size: var(--fontsize-small);
+        }
+    }
+
+    .container-projetos{
+        p{
+            font-size: var(--fontsize-small);
+            margin-bottom: 5px;
+        }
+    }
+
+    .projetos{
+        flex-direction: column;
+        gap: 80px;
+        justify-content: center;
+    }
+
+    .projeto{
+        height: 100px;
+        width: 200px;
+    }
+
+    #section-title-projetos{
+      
+    }
+
+    .certificados{
+        
+    }
+
+    .container-certificados{
+    
+    }
+
+    .certificado{
+        height: 120px;
+    }
+
+    .container-habilidades {
+        
+    }
+
+    .habilities{
+        margin-top: 100px;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        flex: 2;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .hab-itens{
+        gap: 20px;
+        width: 170px;
+        height: 270px;
+        margin: 10px;
+    }
+
+    body{
+        max-width: 100vw !important;
+    }
+
+}
