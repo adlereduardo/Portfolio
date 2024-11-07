@@ -60,57 +60,6 @@ if (window.innerWidth < 768) { // Para dispositivos com largura menor que 768px
     });
 }
 
-// Header à esquerda quando descer a tela
-/*const header = document.querySelector('header');
-        const ulitens = document.getElementsByClassName('ul-itens'); // Isso retorna uma coleção de elementos
-
-        window.addEventListener('scroll', function() {
-            const scrollTop = window.scrollY;
-
-            if (scrollTop > 150) { 
-                header.classList.add('fixed');
-
-                for (let i = 0; i < ulitens.length; i++) {
-                    ulitens[i].classList.add('flex-column');
-                }
-
-                console.log("Header fixado e itens em coluna");
-            } else {
-                header.classList.remove('fixed');
-
-                for (let i = 0; i < ulitens.length; i++) {
-                    ulitens[i].classList.remove('flex-column');
-                }
-
-                console.log("Header desfizado e itens em linha");
-            }
-        });
-
-.fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100px; 
-    height: 200px; 
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.flex-column {
-    flex-direction: column !important; 
-}
-
-
-.fixed-itens{
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-}
-*/
-
 AOS.init();
 
 // You can also pass an optional settings object
@@ -128,10 +77,10 @@ AOS.init({
   
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
+  offset: 100, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
+  duration: 600, // values from 0 to 3000, with step 50ms
+  easing: 'ease-in-out', // default easing for AOS animations
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
