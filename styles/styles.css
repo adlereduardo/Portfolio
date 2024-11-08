@@ -471,7 +471,6 @@ iframe {
 
 .certificado {
     height: 180px;
-    width: fit-content;
     display: flex;
     justify-content: center;
     box-shadow: #0000002f 0 0px 20px 0px;
